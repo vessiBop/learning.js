@@ -17,3 +17,50 @@ console.log("The value in the variable myFirstName is ");
 console.log(myFirstName);
 console.log("The value for the variable myLastName is"); console.log(myLastName);
 
+/* Conditionals Syntax 
+        if (1 === 1) {
+            console.log("The condition is true");
+        } 
+        If the condition is true, the code within the "if statement will run. Otherwise the program continues.
+        Other statements that could come after the "if" are "else if" and "else".
+        
+        */
+
+const x = 10
+
+if ( x < 0 ) { 
+    console.log("x is a negative number"); 
+} else if (x === 0) {
+    console.log ("x is 0"); 
+} else { 
+    console.log("x is a positive number");
+}
+
+
+if ( x > 5 && x < 15 ) { 
+    console.log ("x is between 6 & 14")
+}
+
+
+
+let berry ='banana'
+
+switch (berry) {
+    case 'eggplant':
+        console.log('the berry is an eggplant');
+        break;
+    case 'banana':
+        console.log('the berry is a banana');
+        break;
+    case 'grape':
+        console.log('the berry is a grape');
+        break;
+    default:
+        console.log('404 berry not found')
+
+}
+
+for (let i = 1; i <= 100; i++)
+{
+    console.log(i);
+}
