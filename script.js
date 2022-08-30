@@ -64,3 +64,29 @@ for (let i = 1; i <= 100; i++)
 {
     console.log(i);
 }
+
+for (let i = 5; i <= 20; i = i + 5) {
+    console.log(i);
+}
+
+for (let num = 10; num >= 1; num--) {
+    console.log(num);
+}
+
+let myString = "responsiveness"
+
+for (let i = 0; i < 10; i++) {
+    console.log(myString[i]);
+}
+
+/* WHILE LOOPS 
+while (condition) {
+    console.log('something') 
+} */
+
+let z = 0;
+
+while (z < 10) {
+    console.log('the loop is still going'); z++;
+}
+console.log('the loop is done');
